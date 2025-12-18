@@ -10,7 +10,7 @@ HF_TOKEN = os.getenv("HF_TOKEN")
 CNB_COOKIE = "" 
 
 repos = [
-    
+    # 添加模型主页地址或huggingface模型ID
 ]
 
 # --- 功能函数 ---
@@ -238,4 +238,5 @@ with open(output_file, "w", encoding="utf-8") as f:
     json.dump(result, f, indent=4, ensure_ascii=False)
 
 print(f"\n✅ 处理完成！JSON 文件已保存为 {output_file}")
+
 print(f"共找到 {len(result)} 个文件（已按文件名排序）。")
