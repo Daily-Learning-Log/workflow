@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # ================= 配置区域 =================
 # 配置模型工作目录
 BASE_DATA_DIR="/workspace/ComfyUI"
